@@ -212,7 +212,7 @@ background-color: #faa541;
     flex: 0 0 58.333333%;
     background-image: url('../img/vista.jpg');
     background-size: cover;
-    top: center;
+    background-position: top center;
     min-height: 400px;
 }
 .full-banner-sidebar {
@@ -235,13 +235,19 @@ background-color: #faa541;
     height: 1px;
     background-color: #faa541;
     margin: 20px auto;
-    display: block,
+    display: block;
 }
 .full-banner-sidebar > div:nth-of-type(1) {
     font-size: 60px;
     font-weight: 700;
     line-height: 1;
 }
+.full-banner-sidebar > div:nth-of-type(2) {
+    font-size: 25px;
+    font-weight: 200;
+    line-height: 3;
+}
+
 .full-banner-sidebar .btn.btn-default {
     margin-top: 50px;
     text-transform: uppercase;
